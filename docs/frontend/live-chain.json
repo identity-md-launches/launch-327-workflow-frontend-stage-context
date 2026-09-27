@@ -1,0 +1,199 @@
+{
+  "checkedAt": "2026-09-27T06:24:14.581Z",
+  "readOnly": true,
+  "broadcasts": 0,
+  "endpoints": [
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com",
+      "chainId": 11155111,
+      "block": "11791517",
+      "code": [
+        {
+          "name": "NFTD",
+          "address": "0x0a7e5114d4007b4b5196fdf0c8697c4e569bf8d8",
+          "bytes": 1722
+        },
+        {
+          "name": "NFTHolderDiscountHook",
+          "address": "0x2221f91e4373565a25bfcbb49d333337b208c044",
+          "bytes": 6239
+        },
+        {
+          "name": "poolManager",
+          "address": "0xe03a1074c86cfedd5c142c4f04f1a1536e203543",
+          "bytes": 24009
+        },
+        {
+          "name": "universalRouter",
+          "address": "0x3a9d48ab9751398bbfa63ad67599bb04e4bdf98b",
+          "bytes": 19540
+        },
+        {
+          "name": "quoter",
+          "address": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+          "bytes": 5820
+        },
+        {
+          "name": "stateView",
+          "address": "0xe1dd9c3fa50edb962e442f60dfbc432e24537e4c",
+          "bytes": 3531
+        },
+        {
+          "name": "positionManager",
+          "address": "0x429ba70129df741b2ca2a85bc3a2a3328e5c09b4",
+          "bytes": 23877
+        },
+        {
+          "name": "permit2",
+          "address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+          "bytes": 9152
+        },
+        {
+          "name": "PoolSwapTest",
+          "address": "0x9b6b46e2c869aa39918db7f52f5557fe577b6eee",
+          "bytes": 6950
+        }
+      ],
+      "collection": "0x429ba70129df741B2Ca2a85BC3A2a3328e5c09b4",
+      "poolManager": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543",
+      "routerManager": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543",
+      "poolId": "0x3d2cc7cc0e92bcfc658100829ee16071b2771b534ebe06b3e441ad3574a636d5",
+      "slot0": [
+        "560227709747861399187319382274582",
+        "177284",
+        "0",
+        "3000"
+      ],
+      "liquidity": "0",
+      "result": "read checks completed"
+    },
+    {
+      "url": "https://rpc.sepolia.ethpandaops.io",
+      "chainId": 11155111,
+      "block": "11791517",
+      "code": [
+        {
+          "name": "NFTD",
+          "address": "0x0a7e5114d4007b4b5196fdf0c8697c4e569bf8d8",
+          "bytes": 1722
+        },
+        {
+          "name": "NFTHolderDiscountHook",
+          "address": "0x2221f91e4373565a25bfcbb49d333337b208c044",
+          "bytes": 6239
+        },
+        {
+          "name": "poolManager",
+          "address": "0xe03a1074c86cfedd5c142c4f04f1a1536e203543",
+          "bytes": 24009
+        },
+        {
+          "name": "universalRouter",
+          "address": "0x3a9d48ab9751398bbfa63ad67599bb04e4bdf98b",
+          "bytes": 19540
+        },
+        {
+          "name": "quoter",
+          "address": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+          "bytes": 5820
+        },
+        {
+          "name": "stateView",
+          "address": "0xe1dd9c3fa50edb962e442f60dfbc432e24537e4c",
+          "bytes": 3531
+        },
+        {
+          "name": "positionManager",
+          "address": "0x429ba70129df741b2ca2a85bc3a2a3328e5c09b4",
+          "bytes": 23877
+        },
+        {
+          "name": "permit2",
+          "address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+          "bytes": 9152
+        },
+        {
+          "name": "PoolSwapTest",
+          "address": "0x9b6b46e2c869aa39918db7f52f5557fe577b6eee",
+          "bytes": 6950
+        }
+      ],
+      "collection": "0x429ba70129df741B2Ca2a85BC3A2a3328e5c09b4",
+      "poolManager": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543",
+      "routerManager": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543",
+      "poolId": "0x3d2cc7cc0e92bcfc658100829ee16071b2771b534ebe06b3e441ad3574a636d5",
+      "slot0": [
+        "560227709747861399187319382274582",
+        "177284",
+        "0",
+        "3000"
+      ],
+      "liquidity": "0",
+      "result": "read checks completed"
+    },
+    {
+      "url": "https://sepolia.rpc.sentio.xyz",
+      "chainId": 11155111,
+      "block": "11791517",
+      "code": [
+        {
+          "name": "NFTD",
+          "address": "0x0a7e5114d4007b4b5196fdf0c8697c4e569bf8d8",
+          "bytes": 1722
+        },
+        {
+          "name": "NFTHolderDiscountHook",
+          "address": "0x2221f91e4373565a25bfcbb49d333337b208c044",
+          "bytes": 6239
+        },
+        {
+          "name": "poolManager",
+          "address": "0xe03a1074c86cfedd5c142c4f04f1a1536e203543",
+          "bytes": 24009
+        },
+        {
+          "name": "universalRouter",
+          "address": "0x3a9d48ab9751398bbfa63ad67599bb04e4bdf98b",
+          "bytes": 19540
+        },
+        {
+          "name": "quoter",
+          "address": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+          "bytes": 5820
+        },
+        {
+          "name": "stateView",
+          "address": "0xe1dd9c3fa50edb962e442f60dfbc432e24537e4c",
+          "bytes": 3531
+        },
+        {
+          "name": "positionManager",
+          "address": "0x429ba70129df741b2ca2a85bc3a2a3328e5c09b4",
+          "bytes": 23877
+        },
+        {
+          "name": "permit2",
+          "address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+          "bytes": 9152
+        },
+        {
+          "name": "PoolSwapTest",
+          "address": "0x9b6b46e2c869aa39918db7f52f5557fe577b6eee",
+          "bytes": 6950
+        }
+      ],
+      "collection": "0x429ba70129df741B2Ca2a85BC3A2a3328e5c09b4",
+      "poolManager": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543",
+      "routerManager": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543",
+      "poolId": "0x3d2cc7cc0e92bcfc658100829ee16071b2771b534ebe06b3e441ad3574a636d5",
+      "slot0": [
+        "560227709747861399187319382274582",
+        "177284",
+        "0",
+        "3000"
+      ],
+      "liquidity": "0",
+      "result": "read checks completed"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "launchId": "99c1d6ab-a6d3-4cde-99c6-bf2af466c499",
+  "chainId": 11155111,
+  "sourceCommit": "85e5b19a6c502e621e60b33b6031c6c9006448af",
+  "attestationHash": "a4ae9660c6da1d66ac5f0228b6e337b559ba67e934a81303e1c649d7543d7da4",
+  "contracts": [
+    {
+      "name": "NFTD",
+      "address": "0x0a7e5114d4007b4b5196fdf0c8697c4e569bf8d8",
+      "abiHash": "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee",
+      "abiPath": "abi/NFTD.json"
+    },
+    {
+      "name": "NFTHolderDiscountHook",
+      "address": "0x2221f91e4373565a25bfcbb49d333337b208c044",
+      "abiHash": "0738827db74abbdd2fc1052f08ecf425fa13b76b8d0e028fd17837bab2338617",
+      "abiPath": "abi/NFTHolderDiscountHook.json"
+    }
+  ],
+  "assets": [
+    {
+      "path": "abi/NFTD.json",
+      "sha256": "9578fcb499b4ba5fac51462a67a2654d9f803e0ea3af9bdb19130ff695808542"
+    },
+    {
+      "path": "abi/NFTHolderDiscountHook.json",
+      "sha256": "875a34b457daed68ade669f6d3b9c83aa98303a242b43465fc55cd5f27bfed3f"
+    },
+    {
+      "path": "assets/ccip-jBLoCFD7.js",
+      "sha256": "08c55e42b2967fc3c1947b4af33b94f94ba1a3d2563e8d1dd2edf425143e167e"
+    },
+    {
+      "path": "assets/dm-sans-latin-Xz1IZZA0.woff2",
+      "sha256": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543"
+    },
+    {
+      "path": "assets/index-BnSu0T09.css",
+      "sha256": "02f30a1fa0630be4c4eb615d05f508c6e91e129eb59a6d67a224f17d3d636498"
+    },
+    {
+      "path": "assets/index-DPzs_iQv.js",
+      "sha256": "159f63be7f5b87b651cddf5f22981f2278e0800c0730e8cdc5696b8ee85544a3"
+    },
+    {
+      "path": "index.html",
+      "sha256": "09a702c33cb5e5f1eb2541c2e6e13ffd09b42cba20b112fa121e3d53f586a1b4"
+    },
+    {
+      "path": "licenses/DM-Sans.txt",
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    }
+  ],
+  "network": {
+    "chainId": 11155111,
+    "name": "Sepolia",
+    "testnet": true,
+    "rpcUrls": [
+      "https://ethereum-sepolia-rpc.publicnode.com",
+      "https://rpc.sepolia.ethpandaops.io",
+      "https://sepolia.rpc.sentio.xyz"
+    ],
+    "explorer": "https://sepolia.etherscan.io",
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "faucets": [
+      "https://cloud.google.com/application/web3/faucet/ethereum/sepolia",
+      "https://www.alchemy.com/faucets/ethereum-sepolia"
+    ],
+    "uniswapV4": {
+      "poolManager": "0xe03a1074c86cfedd5c142c4f04f1a1536e203543",
+      "universalRouter": "0x3a9d48ab9751398bbfa63ad67599bb04e4bdf98b",
+      "quoter": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+      "stateView": "0xe1dd9c3fa50edb962e442f60dfbc432e24537e4c",
+      "positionManager": "0x429ba70129df741b2ca2a85bc3a2a3328e5c09b4",
+      "permit2": "0x000000000022d473030f116ddee9f6b43ac78ba3"
+    }
+  },
+  "walletAddChain": {
+    "chainId": "0xaa36a7",
+    "chainName": "Sepolia",
+    "rpcUrls": [
+      "https://ethereum-sepolia-rpc.publicnode.com",
+      "https://rpc.sepolia.ethpandaops.io",
+      "https://sepolia.rpc.sentio.xyz"
+    ],
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": [
+      "https://sepolia.etherscan.io"
+    ]
+  },
+  "pool": {
+    "fee": 3000,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336",
+    "pairedCurrency": "0x0000000000000000000000000000000000000000"
+  },
+  "deploymentBlock": 11791297,
+  "integrations": {
+    "poolSwapTest": "0x9b6b46e2c869aa39918db7f52f5557fe577b6eee"
+  }
+}

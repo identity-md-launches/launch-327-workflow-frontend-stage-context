@@ -1,0 +1,4 @@
+{
+  "poolSwapTest": "0x9b6b46e2c869aa39918db7f52f5557fe577b6eee",
+  "source": "Approved workflow: explicit PoolSwapTest route; docs/DEPLOYMENT.md at deployed source commit. This overrides the generic Universal Router example."
+}

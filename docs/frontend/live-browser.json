@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-09-27T06:31:40.756Z",
+  "mocked": false,
+  "walletConnected": false,
+  "transactionsSent": 0,
+  "consoleErrors": [],
+  "requestFailures": [],
+  "browser": "154.0.8037.0",
+  "poolState": "RPC verified · Block 11,791,554\nRefresh state\n↻",
+  "price": "Spot price\n1 ETH ≈ 50,000,000 NFTD\nPool LP fee\n0.3%\nYour hook fee\nConnect to view",
+  "history": "Lifetime history from block 11,791,297 through 11,791,548 · six-block confirmation buffer.",
+  "metrics": "Lifetime fees collected\n0 ETH\n0 NFTD\nCounted separately by currency\nSwaps with a discount\nNo swaps yet\n0 of 0 swaps\nShare of swaps, including zero-fee swaps",
+  "result": "pass"
+}

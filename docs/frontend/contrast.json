@@ -1,0 +1,54 @@
+{
+  "fontLoaded": true,
+  "focus": "rgb(52, 93, 209) solid 3px",
+  "pairs": [
+    {
+      "selector": "body",
+      "foreground": "rgb(32, 41, 28)",
+      "background": "rgb(247, 248, 242)",
+      "size": "16px",
+      "weight": "400",
+      "contrast": 14.09
+    },
+    {
+      "selector": ".intro-copy",
+      "foreground": "rgb(100, 108, 94)",
+      "background": "rgb(247, 248, 242)",
+      "size": "15px",
+      "weight": "400",
+      "contrast": 5.11
+    },
+    {
+      "selector": ".collection-copy > p:not(.eyebrow)",
+      "foreground": "rgb(100, 108, 94)",
+      "background": "rgb(231, 241, 207)",
+      "size": "13px",
+      "weight": "400",
+      "contrast": 4.65
+    },
+    {
+      "selector": ".primary",
+      "foreground": "rgb(32, 41, 28)",
+      "background": "rgb(197, 238, 121)",
+      "size": "13px",
+      "weight": "600",
+      "contrast": 11.38
+    },
+    {
+      "selector": ".route-note",
+      "foreground": "rgb(32, 41, 28)",
+      "background": "rgb(255, 255, 255)",
+      "size": "11px",
+      "weight": "400",
+      "contrast": 15.05
+    },
+    {
+      "selector": ".tiny",
+      "foreground": "rgb(100, 108, 94)",
+      "background": "rgb(247, 248, 242)",
+      "size": "12px",
+      "weight": "400",
+      "contrast": 5.11
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+/* Local font asset; no runtime font service is required. */
+@font-face {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 100 1000;
+  font-display: swap;
+  src: url("./assets/dm-sans-latin.woff2") format("woff2");
+}

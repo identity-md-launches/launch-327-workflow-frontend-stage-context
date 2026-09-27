@@ -1,0 +1,8 @@
+{
+  "result": "pass",
+  "checks": [
+    "Development server serves the exact export manifest",
+    "Source entry module returns HTTP 200"
+  ],
+  "serverClosedAfterCheck": true
+}

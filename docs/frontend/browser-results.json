@@ -1,0 +1,157 @@
+{
+  "checkedAt": "2026-09-27T06:38:48.563Z",
+  "servedAtSubpath": "/preview/",
+  "mockedTransactionsOnly": true,
+  "checks": [
+    {
+      "name": "Static subpath loads local JS, CSS, font, runtime manifest and verified ABIs",
+      "result": "pass"
+    },
+    {
+      "name": "Disconnected actions locked; event counts deduplicate repeated logs",
+      "result": "pass"
+    },
+    {
+      "name": "Keyboard connection, holder eligibility, invalid input focus, exact-input buy and receipt",
+      "result": "pass"
+    },
+    {
+      "name": "Sell approval is exact and separate, spender is assigned PoolSwapTest, sell signs no ETH value",
+      "result": "pass"
+    },
+    {
+      "name": "Donation preview simulates without sending, confirmation sends once and refreshes empty accrual",
+      "result": "pass"
+    },
+    {
+      "name": "Zero current liquidity blocks donation while a buy can cross into seeded liquidity; partial fill is disclosed",
+      "result": "pass"
+    },
+    {
+      "name": "Account changes invalidate trade reviews; non-holder rate updates",
+      "result": "pass"
+    },
+    {
+      "name": "Collection read failure displays unavailable NFT balance and the on-chain full fee",
+      "result": "pass"
+    },
+    {
+      "name": "Router simulation failure reports revert and prevents a signature",
+      "result": "pass"
+    },
+    {
+      "name": "Wallet rejection remains recoverable and creates no transaction",
+      "result": "pass"
+    },
+    {
+      "name": "Quote expiry removes the signing control",
+      "result": "pass"
+    },
+    {
+      "name": "Reverted receipt reports failure instead of confirmation",
+      "result": "pass"
+    },
+    {
+      "name": "Reflow at 1440, 780, 390 and 320 CSS px; 320px text enlargement to 200%",
+      "result": "pass"
+    },
+    {
+      "name": "Wrong-chain action lock; unknown chain adds exact walletAddChain configuration and switches again",
+      "result": "pass"
+    },
+    {
+      "name": "Missing-wallet recovery instructions",
+      "result": "pass"
+    },
+    {
+      "name": "Missing deployed bytecode locks contract actions",
+      "result": "pass"
+    },
+    {
+      "name": "RPC chain mismatch is rejected",
+      "result": "pass"
+    },
+    {
+      "name": "RPC outage locks actions; explicit refresh recovers reads",
+      "result": "pass"
+    },
+    {
+      "name": "Tampered implementation ABI prevents the app from enabling actions",
+      "result": "pass"
+    }
+  ],
+  "screenshots": [
+    "desktop-disconnected.png",
+    "desktop-connected.png",
+    "keyboard-focus.png",
+    "tablet.png",
+    "mobile.png",
+    "mobile-320.png"
+  ],
+  "accessibility": [
+    {
+      "state": "desktop disconnected",
+      "violations": []
+    },
+    {
+      "state": "desktop quote review",
+      "violations": []
+    },
+    {
+      "state": "mobile connected",
+      "violations": []
+    }
+  ],
+  "consoleErrors": [],
+  "resourceFailures": [],
+  "browser": "154.0.8037.0",
+  "computedStyle": {
+    "fontLoaded": true,
+    "focus": "rgb(52, 93, 209) solid 3px",
+    "pairs": [
+      {
+        "selector": "body",
+        "foreground": "rgb(32, 41, 28)",
+        "background": "rgb(247, 248, 242)",
+        "size": "16px",
+        "weight": "400"
+      },
+      {
+        "selector": ".intro-copy",
+        "foreground": "rgb(100, 108, 94)",
+        "background": "rgb(247, 248, 242)",
+        "size": "15px",
+        "weight": "400"
+      },
+      {
+        "selector": ".collection-copy > p:not(.eyebrow)",
+        "foreground": "rgb(100, 108, 94)",
+        "background": "rgb(231, 241, 207)",
+        "size": "13px",
+        "weight": "400"
+      },
+      {
+        "selector": ".primary",
+        "foreground": "rgb(32, 41, 28)",
+        "background": "rgb(197, 238, 121)",
+        "size": "13px",
+        "weight": "600"
+      },
+      {
+        "selector": ".route-note",
+        "foreground": "rgb(32, 41, 28)",
+        "background": "rgb(255, 255, 255)",
+        "size": "11px",
+        "weight": "400"
+      },
+      {
+        "selector": ".tiny",
+        "foreground": "rgb(100, 108, 94)",
+        "background": "rgb(247, 248, 242)",
+        "size": "12px",
+        "weight": "400"
+      }
+    ]
+  },
+  "result": "pass"
+}
