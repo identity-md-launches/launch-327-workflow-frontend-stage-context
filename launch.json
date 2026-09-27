@@ -1,0 +1,26 @@
+{
+  "kind": "univ4_hook",
+  "hook": {
+    "contract": "NFTHolderDiscountHook",
+    "constructorArgs": [
+      "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543"
+    ],
+    "permissions": [
+      "afterSwap",
+      "afterSwapReturnDelta"
+    ]
+  },
+  "token": {
+    "contract": "NFTD",
+    "name": "Holder Discount",
+    "symbol": "NFTD",
+    "decimals": 18
+  },
+  "pool": {
+    "pairedCurrency": "0x0000000000000000000000000000000000000000",
+    "fee": 3000,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "notes": "Technical description of the accepted Sepolia contracts: src/NFTHolderDiscountHook.sol and src/NFTD.sol, with ABI exports at docs/abi/NFTHolderDiscountHook.json and docs/abi/NFTD.json. The hook constructor takes only the specified PoolManager; NFTD takes no constructor arguments. Enabled permissions correspond to address bits 0x0044 under mask 0x3fff. The described pool has native ETH as currency0 and NFTD as currency1, with a static 3000 LP fee and tick spacing 60. initialPrice is decimal sqrtPriceX96, here 2^96, representing 1 NFTD per ETH with 18 decimals. This value comes from the accepted local launch rehearsal; the workflow leaves production pricing unspecified, so its suitability for the launch remains a review finding. The rehearsal seeds only NFTD below the opening price and exercises a first buy into the ETH-less pool followed by a sell. Hook accounting is keyed by PoolId and permits other pools to attach. Separately from the LP fee, afterSwap charges ceil(abs(unspecified amount) * bps / 10000), capped at that amount: 100 bps normally or 50 bps when COLLECTION 0x429ba70129df741B2Ca2a85BC3A2a3328e5c09b4 reports a positive NFT balance for tx.origin. The 50000-gas staticcall accepts exactly 32 return bytes; failure selects the full fee. Exact-input fees reduce output; exact-output fees increase input. Fees accrue as ERC-6909 claims without transferring assets during swaps. Anyone may call donateFees to burn that pool's accrued claims and donate to in-range LPs; NoLiquidity preserves claims for a later call. Eligibility ignores unauthenticated hookData and uses tx.origin only to lower fees. Contract and ERC-4337 wallets are judged by their relayer or bundler EOA; an NFT-holding relayer discounts its users, and an EIP-7702 account may borrow an NFT within its transaction. Supply and allocation policy, signed artifact linkage, independent review, admission and deployment are handled separately; this manifest does not claim those service outcomes."
+}
