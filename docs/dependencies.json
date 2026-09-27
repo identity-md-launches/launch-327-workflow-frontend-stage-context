@@ -1,0 +1,61 @@
+[
+  {
+    "name": "v4-core",
+    "repository": "https://github.com/Uniswap/v4-core",
+    "commit": "a7cf038cd568801a79a9b4cf92cd5b52c95c8585",
+    "archive_sha256": "2934258e5dbbae3d9d635b62e049eac00efb21abc035616a5c115a8152ccc675",
+    "vendored_paths": [
+      "src/",
+      "test/utils/CurrencySettler.sol",
+      "licenses/"
+    ]
+  },
+  {
+    "name": "v4-periphery",
+    "repository": "https://github.com/Uniswap/v4-periphery",
+    "commit": "444c526b77d804590f0d7bc5a481af5a3277c952",
+    "archive_sha256": "7ecbb6c269b348957c9cb39401828d2f3220b49edf007e77445d71a7a196cd27",
+    "vendored_paths": [
+      "src/utils/BaseHook.sol",
+      "src/utils/HookMiner.sol",
+      "src/base/ImmutableState.sol",
+      "src/interfaces/IImmutableState.sol",
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "forge-std",
+    "repository": "https://github.com/foundry-rs/forge-std",
+    "commit": "77041d2ce690e692d6e03cc812b57d1ddaa4d505",
+    "archive_sha256": "a387f7c2a10387f889b0d18b999cfa667a5273ac11cc11e18923022eb8b24bc3",
+    "vendored_paths": [
+      "src/",
+      "LICENSE-APACHE",
+      "LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "openzeppelin-contracts",
+    "repository": "https://github.com/OpenZeppelin/openzeppelin-contracts",
+    "commit": "69c8def5f222ff96f2b5beff05dfba996368aa79",
+    "archive_sha256": "b0d8bc73b249cee906d596cf8e63c6ea71a4311c4e2a45a0b253e060d6dd3ae8",
+    "vendored_paths": [
+      "contracts/token/ERC20/ERC20.sol",
+      "contracts/token/ERC20/IERC20.sol",
+      "contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "contracts/utils/Context.sol",
+      "contracts/interfaces/draft-IERC6093.sol",
+      "LICENSE"
+    ]
+  },
+  {
+    "name": "solmate",
+    "repository": "https://github.com/transmissions11/solmate",
+    "commit": "4b47a19038b798b4a33d9749d25e570443520647",
+    "archive_sha256": "9aa78449f8bc10931520500ec24734f089af9ac875a3334d8b512f8727241667",
+    "vendored_paths": [
+      "src/",
+      "LICENSE"
+    ]
+  }
+]
